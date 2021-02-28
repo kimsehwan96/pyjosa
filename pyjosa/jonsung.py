@@ -1,7 +1,7 @@
 #-*- coding: utf-8 -*-
 import re
 
-J_LIST = [] # 종성 리스트  추가
+BASE_CODE = 44032
 
 def is_hangle(string: str) -> bool:
     last_char = string[-1]
@@ -9,12 +9,12 @@ def is_hangle(string: str) -> bool:
         return False
     return True
 
+def has_jongsung(string: str)  -> bool:
+    if not is_hangle(string):
+        raise Exception("마지막 글자가 한글이 아닙니다.")
 
-
-
-def has_jungsung(string: str)  -> bool:
     last_char = string[-1]
-    encoded_last_char = last_char.encode('utf8')
-    #유니코드 계산을 통해 종성을 분리한다.
-    #종성이 있을경우 True, 없을경우 False를 반환하도록 작성한다.
-    pass
+    if (ord(last_char) - 44032) % 28 > 0:
+        return True
+    return  False
+

@@ -1,5 +1,6 @@
 #-*- coding: utf-8 -*-
 import re
+from Exceptions import NotHangleException
 
 BASE_CODE = 44032
 

@@ -23,7 +23,7 @@ class HangleTestCase(unittest.TestCase):
             self.assertTrue(is_hangle(v))
         
         for v in self.not_kor:
-            self.assertFalse(is_hangle(v), False)
+            self.assertFalse(is_hangle(v))
 
 if __name__ == '__main__':
     unittest.main()

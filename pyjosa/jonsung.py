@@ -18,3 +18,5 @@ def has_jongsung(string: str)  -> bool:
         return True
     return  False
 
+
+# TODO: can we make above functions as Decorator?

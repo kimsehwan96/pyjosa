@@ -4,6 +4,22 @@
 
 - `PyPI`를 통해 배포 할 예정.
 
+## 설치
+
+`python3 -m pip install pyjosa`
+
+## 사용법
+
+```python3
+from pyjosa.josa import Josa
+
+s = '오리'
+s2 = '철수'
+    
+print(f'{s}{Josa.get_josa(s, "이")}') # 오리가 
+print(f'{s2}{Josa.get_josa(s2, "을")}') # 철수를
+```
+
 ## Core Concept
 
 - 추후 작성 예정

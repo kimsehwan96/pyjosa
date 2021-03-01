@@ -1,6 +1,6 @@
 #-*- coding: utf-8 -*-
 import re
-from exceptions import NotHangleException
+from pyjosa.exceptions import NotHangleException
 
 START_HANGLE = 44032
 J_IDX = 28

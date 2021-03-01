@@ -1,4 +1,4 @@
-from jonsung import is_hangle, has_jongsung
+from pyjosa.jonsung import is_hangle, has_jongsung
 import unittest
 
 class HangleTestCase(unittest.TestCase):

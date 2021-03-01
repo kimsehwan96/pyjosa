@@ -1,4 +1,4 @@
-from jonsung import has_jongsung
+from pyjosa.jonsung import has_jongsung
 
 class Josa:
     def __init__(self):

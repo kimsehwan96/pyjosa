@@ -3,7 +3,7 @@ from setuptools  import setup,  find_packages
 setup(
     name = 'pyjosa',
     version = '0.0.6',
-    description = 'now it is test',
+    description = '한국어 조사 처리 패키지',
     author = 'sehwan.kim',
     author_email = 'sehwan.kim@ingkle.com',
     url = 'https://github.com/kimsehwan96/pyjosa',
@@ -15,6 +15,5 @@ setup(
     ],
     package_data = {},
     zip_safe=False,
-    keyword = ['pypi test'],
-
+    keyword = ['pypi', 'korea'],
 )

@@ -6,7 +6,7 @@ setup(
     description = 'now it is test',
     author = 'sehwan.kim',
     author_email = 'sehwan.kim@ingkle.com',
-    url = '추가해야함',
+    url = 'https://github.com/kimsehwan96/pyjosa',
     packages = find_packages(exclude=[]),
     license='MIT',
     install_requires=[],

@@ -2,7 +2,7 @@ from setuptools  import setup,  find_packages
 
 setup(
     name = 'pyjosa',
-    version = '0.0.2',
+    version = '0.0.3',
     description = 'now it is test',
     author = 'sehwan.kim',
     author_email = 'sehwan.kim@ingkle.com',

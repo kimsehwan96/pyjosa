@@ -1,24 +1,23 @@
 from pyjosa.jonsung import has_jongsung
 
 class Josa:
-    def __init__(self):
+    def __init__(self) -> None:
         pass
 
     @staticmethod
-    def get_josa(string, josa):
+    def get_josa(string, josa) -> str:
         if (josa == '을') or (josa =='를'):
             return '을' if has_jongsung(string) else '를'
         elif (josa == '은') or (josa =='는'):
-            return '는' if has_jongsung(string) else '은'
+            return '은' if has_jongsung(string) else '는'
         elif (josa == '이') or (josa =='가'):
             return '이' if has_jongsung(string) else '가'
         else:
             raise Exception("아직 구현중임")
 
 
-
     @staticmethod
-    def get_full_string(string, josa):
+    def get_full_string(string, josa) -> str:
         pass
 
 # TODO: make main function as class's static method? or not a class's static method just a function.

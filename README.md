@@ -13,11 +13,9 @@
 ```python3
 from pyjosa.josa import Josa
 
-s = '오리'
-s2 = '철수'
-    
-print(f'{s}{Josa.get_josa(s, "이")}') # 오리가 
-print(f'{s2}{Josa.get_josa(s2, "을")}') # 철수를
+print(Josa.get_josa("철수", "은")) # 철수는
+print(Josa.get_josa("오리", "을")) # 오리를
+print(Josa.get_josa("닭", "는")) # 닭은
 ```
 
 ## Core Concept

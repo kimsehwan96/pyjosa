@@ -13,7 +13,7 @@ def is_hangle(string: str) -> bool:
 
 def has_jongsung(string: str)  -> bool:
     if not is_hangle(string):
-        raise Exception("마지막 글자가 한글이 아닙니다.")
+        raise NotHangleException
 
     last_char = string[-1]
     if (ord(last_char) - START_HANGLE) % J_IDX > 0:

@@ -1,5 +1,5 @@
 from pyjosa.jonsung import has_jongsung
-
+from pyjosa.exceptions import JosaTypeException
 
 class Josa:
 
@@ -19,7 +19,7 @@ class Josa:
         elif (josa == '으로') or (josa == '로'):
             return '으로' if has_jongsung(string) else '로'
         else:
-            raise Exception("올바르지 않은 조사.")
+            raise JosaTypeException
 
     @staticmethod
     def get_full_string(string, josa) -> str:
@@ -37,4 +37,4 @@ class Josa:
         elif (josa == '으로') or (josa == '로'):
             return string + '으로' if has_jongsung(string) else string + '로'
         else:
-            raise Exception("올바르지 않은 조사.")
+            raise JosaTypeException

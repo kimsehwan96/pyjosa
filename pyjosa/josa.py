@@ -4,7 +4,7 @@ from pyjosa.jonsung import has_jongsung
 class Josa:
 
     @staticmethod
-    def get_josa(cls, string, josa) -> str:
+    def get_josa(string, josa) -> str:
 
         if (josa == '을') or (josa == '를'):
             return '을' if has_jongsung(string) else '를'
@@ -22,7 +22,7 @@ class Josa:
             raise Exception("올바르지 않은 조사.")
 
     @classmethod
-    def get_full_string(cls, string, josa) -> str:
+    def get_full_string(string, josa) -> str:
 
         if (josa == '을') or (josa == '를'):
             return string + '을' if has_jongsung(string) else string + '를'

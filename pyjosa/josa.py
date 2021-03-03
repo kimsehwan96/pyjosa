@@ -17,7 +17,7 @@ class Josa:
         elif (josa == '이나') or (josa == '나'):
             return '이나' if has_jongsung(string) else '나'
         elif (josa == '으로') or (josa == '로'):
-            return '으로' if has_jongsung(string) else ''
+            return '으로' if has_jongsung(string) else '로'
         else:
             raise Exception("올바르지 않은 조사.")
 

@@ -21,7 +21,7 @@ class Josa:
         else:
             raise Exception("올바르지 않은 조사.")
 
-    @classmethod
+    @staticmethod
     def get_full_string(string, josa) -> str:
 
         if (josa == '을') or (josa == '를'):

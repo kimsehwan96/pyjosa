@@ -1,33 +1,40 @@
 from pyjosa.jonsung import has_jongsung
 
+
 class Josa:
-    def __init__(self) -> None:
-        pass
 
     @staticmethod
-    def get_josa(string, josa) -> str:
-        if (josa == '을') or (josa =='를'):
+    def get_josa(cls, string, josa) -> str:
+
+        if (josa == '을') or (josa == '를'):
             return '을' if has_jongsung(string) else '를'
-        elif (josa == '은') or (josa =='는'):
+        elif (josa == '은') or (josa == '는'):
             return '은' if has_jongsung(string) else '는'
-        elif (josa == '이') or (josa =='가'):
+        elif (josa == '이') or (josa == '가'):
             return '이' if has_jongsung(string) else '가'
+        elif (josa == '과') or (josa == '와'):
+            return '과' if has_jongsung(string) else '와'
+        elif (josa == '이나') or (josa == '나'):
+            return '이나' if has_jongsung(string) else '나'
+        elif (josa == '으로') or (josa == '로'):
+            return '으로' if has_jongsung(string) else ''
         else:
-            raise Exception("아직 구현중임")
+            raise Exception("올바르지 않은 조사.")
 
+    @classmethod
+    def get_full_string(cls, string, josa) -> str:
 
-    @staticmethod
-    def get_full_string(string, josa) -> str:
-        pass
-
-# TODO: make main function as class's static method? or not a class's static method just a function.
-
-
-if __name__ =="__main__":
-    s = '오리'
-    s2 = '철수'
-    
-    print(f'{s}{Josa.get_josa(s, "이")}') # 오리가 
-    print(f'{s2}{Josa.get_josa(s2, "을")}') # 철수를
-    # 사용법이 너무 어려워 보이는데?
-    # 더 나은 사용법 제공을 위해 고민하기.
+        if (josa == '을') or (josa == '를'):
+            return string + '을' if has_jongsung(string) else string + '를'
+        elif (josa == '은') or (josa == '는'):
+            return string + '은' if has_jongsung(string) else string + '는'
+        elif (josa == '이') or (josa == '가'):
+            return string + '이' if has_jongsung(string) else string + '가'
+        elif (josa == '과') or (josa == '와'):
+            return string + '과' if has_jongsung(string) else string + '와'
+        elif (josa == '이나') or (josa == '나'):
+            return string + '이나' if has_jongsung(string) else string + '나'
+        elif (josa == '으로') or (josa == '로'):
+            return string + '으로' if has_jongsung(string) else string + '로'
+        else:
+            raise Exception("올바르지 않은 조사.")

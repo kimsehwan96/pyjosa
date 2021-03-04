@@ -1,6 +1,9 @@
 # Pyjosa
 
-![PyPI](https://img.shields.io/pypi/v/pyjosa?style=plastic) ![GitHub](https://img.shields.io/github/license/kimsehwan96/pyjosa) ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/kimsehwan96/pyjosa/Publish%20Python%20%F0%9F%90%8D%20distributions%20%F0%9F%93%A6%20to%20PyPI/release) ![PyPI - Downloads](https://img.shields.io/pypi/dm/pyjosa) 
+![PyPI](https://img.shields.io/pypi/v/pyjosa?style=plastic)  ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyjosa)
+![GitHub](https://img.shields.io/github/license/kimsehwan96/pyjosa) ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/kimsehwan96/pyjosa/Publish%20Python%20%F0%9F%90%8D%20distributions%20%F0%9F%93%A6%20to%20PyPI/release) 
+
+![PyPI - Downloads](https://img.shields.io/pypi/dm/pyjosa) 
 
 입력받은 한글 문자에 종성이 있을경우, 없을 경우를 구분하여 `을/를`, `이/가`와 같은 조사를 자동으로 붙여주는 패키지
 

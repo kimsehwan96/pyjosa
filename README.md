@@ -9,6 +9,10 @@
 
 `PyPI`에 배포 하였음. 현재 버전 ![PyPI](https://img.shields.io/pypi/v/pyjosa?style=plastic)
 
+## 공식 도큐먼트
+
+[https://kimsehwan96.github.io/pyjosa/]https://kimsehwan96.github.io/pyjosa/
+
 ## 설치
 
 `python3 -m pip install pyjosa`

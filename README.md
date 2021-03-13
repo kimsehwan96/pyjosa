@@ -11,7 +11,7 @@
 
 ## 공식 도큐먼트
 
-[https://kimsehwan96.github.io/pyjosa/]https://kimsehwan96.github.io/pyjosa/
+https://kimsehwan96.github.io/pyjosa/
 
 ## 설치
 

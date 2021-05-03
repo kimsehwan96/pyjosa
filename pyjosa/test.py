@@ -1,4 +1,4 @@
-from pyjosa.jonsung import is_hangle, has_jongsung
+from pyjosa.jonsung import Jongsung
 import unittest
 
 
@@ -21,10 +21,10 @@ class HangleTestCase(unittest.TestCase):
 
     def test_line_count(self):
         for v in self.kor:
-            self.assertTrue(is_hangle(v))
+            self.assertTrue(Jongsung.is_hangle(v))
 
         for v in self.not_kor:
-            self.assertFalse(is_hangle(v))
+            self.assertFalse(Jongsung.is_hangle(v))
 
 
 if __name__ == '__main__':

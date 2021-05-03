@@ -40,3 +40,4 @@ class Josa:
             raise JosaTypeException
 
 # TODO : Refactor pyjosa's architecture with oop.
+# TODO : need to remove duplicated fuxxing codes with 'if ... elif...' (refactor)

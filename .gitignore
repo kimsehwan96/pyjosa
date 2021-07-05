@@ -117,3 +117,6 @@ dmypy.json
  
 # Pyre type checker
 .pyre/
+
+# automatic document build file
+docs/_site

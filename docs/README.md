@@ -44,8 +44,8 @@ print(Josa.get_full_string("산", "으로")) # 산으로
 print(Josa.get_full_string("명예", "과")) # 명예와
 print(Josa.get_full_string("물", "나")) # 물이나
 # 사람 이름 + 이가/가 를 구분하기 위해서는 조사부분에 '이가'를 입력합니다.
-print(Josa.get_josa("예나", "이가")) # 예나가
-print(Josa.get_josa("세환", "이가")) # 세환이가
+print(Josa.get_full_string("예나", "이가")) # 예나가
+print(Josa.get_full_string("세환", "이가")) # 세환이가
 ```
 
 ## 깃허브 주소

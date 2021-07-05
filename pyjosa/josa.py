@@ -18,6 +18,8 @@ class Josa:
             return '이나' if Jongsung.has_jongsung(string) else '나'
         elif (josa == '으로') or (josa == '로'):
             return '으로' if Jongsung.has_jongsung(string) else '로'
+        elif josa == '이가':
+            return '이가' if Jongsung.has_jongsung(string) else '가'
         else:
             raise JosaTypeException
 
@@ -36,8 +38,10 @@ class Josa:
             return string + '이나' if Jongsung.has_jongsung(string) else string + '나'
         elif (josa == '으로') or (josa == '로'):
             return string + '으로' if Jongsung.has_jongsung(string) else string + '로'
+        elif josa == '이가':
+            return string + '이가' if Jongsung.has_jongsung(string) else string + '가'
         else:
             raise JosaTypeException
 
 # TODO : Refactor pyjosa's architecture with oop.
-# TODO : need to remove duplicated fuxxing codes with 'if ... elif...' (refactor)
+# TODO : need to remove duplicated codes with 'if ... elif...' (refactor)

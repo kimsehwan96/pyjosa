@@ -2,7 +2,7 @@ from setuptools  import setup,  find_packages
 
 setup(
     name = 'pyjosa',
-    version = '1.0.0',
+    version = '1.0.1',
     description = '한국어 조사 처리 패키지',
     author = 'sehwan.kim',
     author_email = 'sehwan.kim@ingkle.com',

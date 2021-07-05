@@ -49,6 +49,8 @@ print(Josa.get_full_string("세환", "이가")) # 세환이가
 ```
 ## 지원되는 조사 목록
 
+https://kimsehwan96.github.io/pyjosa/3_%EC%A7%80%EC%9B%90%EB%90%98%EB%8A%94_%EC%A1%B0%EC%82%AC/
+
 1. 을 / 를
 2. 은 / 는
 3. 이 / 가
@@ -74,6 +76,14 @@ print(Josa.get_full_string("세환", "이가")) # 세환이가
 
 ### v1.0.1
 '이가' 구분 추가
+
+### v1.0.2
+- 아/야
+- 이랑/랑
+- 이며/며
+- 이다/다
+
+4개 조사 추가
 
 
 ## Contribute

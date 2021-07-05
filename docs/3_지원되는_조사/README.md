@@ -26,58 +26,37 @@ word = '예나'
 print(Josa.get_josa(word, '이가')) # 가
 ```
 
-1. 을/를
-   
+### 을/를
    - `Josa.get_josa(word, '을')`
    - `Josa.get_josa(word, '를')`
-    
-2. 은/는
-
+### 은/는
    - `Josa.get_josa(word, '은')`
    - `Josa.get_josa(word, '는')`
-    
-3. 이/가
-
+### 이/가
    - `Josa.get_josa(word, '이')`
-   - `Josa.get_josa(word, '가')` 
-    
-4. 과/와
-
+   - `Josa.get_josa(word, '가')`
+### 과/와
    - `Josa.get_josa(word, '과')`
    - `Josa.get_josa(word, '와')`
-    
-5. 이나/나
-
+### 이나/나
    - `Josa.get_josa(word, '이나')`
    - `Josa.get_josa(word, '나')`
-    
-6. 으로/로
-
+### 으로/로
    - `Josa.get_josa(word, '으로')`
    - `Josa.get_josa(word, '로')`
-    
-7. 아/야
-
+### 아/야
    - `Josa.get_josa(word, '아')`
    - `Josa.get_josa(word, '야')`
-    
-8. 이랑/랑
-
+### 이랑/랑
    - `Josa.get_josa(word, '이랑')`
    - `Josa.get_josa(word, '랑')`
-    
-9. 이며/며
-
+### 이며/며
    - `Josa.get_josa(word, '이며')`
    - `Josa.get_josa(word, '며')`
-
-10. 이다/다
-
+### 이다/다
    - `Josa.get_josa(word, '이다')`
    - `Josa.get_josa(word, '다')`
-
-11. 이가/가
-
+### 이가/가
    - `Josa.get_josa(word, '이가')`
 
     

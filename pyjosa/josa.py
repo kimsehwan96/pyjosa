@@ -40,7 +40,7 @@ class Josa:
     @classmethod
     def get_full_string(cls, string: str, josa: str) -> str:
         """
-        단어 뒤에 조사를 붙여서 반환하는 정적 메서드
+        단어 뒤에 조사를 붙여서 반환하는 클래스 메서드
         :param string: 입력받는 한글 단어
         :param josa: 체크하고자 하는 조사
         :return: 단어와 조사를 붙인 문자열을 반환

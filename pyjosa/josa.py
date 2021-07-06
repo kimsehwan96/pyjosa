@@ -1,7 +1,10 @@
 from pyjosa.jonsung import Jongsung
-from pyjosa.exceptions import JosaTypeException
+from pyjosa.exceptions import JosaTypeException, JosaInstantiationException
 
 class Josa:
+    # we will not instantiate this class because it's not really needed.
+    def __init__(self):
+        raise JosaInstantiationException
 
     @staticmethod
     def get_josa(string: str, josa: str) -> str:
@@ -49,4 +52,3 @@ class Josa:
 
 
 # TODO : Refactor pyjosa's architecture with oop.
-# TODO : need to remove duplicated codes with 'if ... elif...' (refactor)

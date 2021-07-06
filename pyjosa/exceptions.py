@@ -9,3 +9,7 @@ class JosaTypeException(Exception):
 class JongsungInstantiationException(Exception):
     def __init__(self):
         super().__init__("종성 클래스는 인스턴스화 할 필요가 없습니다.")
+
+class JosaInstantiationException(Exception):
+    def __init__(self):
+        super().__init__("조사 클래스는 인스턴스화 할 필요가 없습니다.")

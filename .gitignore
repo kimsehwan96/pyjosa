@@ -120,3 +120,6 @@ dmypy.json
 
 # automatic document build file
 docs/_site
+
+#idea
+.idea/

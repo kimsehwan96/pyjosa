@@ -85,6 +85,18 @@ https://kimsehwan96.github.io/pyjosa/3_%EC%A7%80%EC%9B%90%EB%90%98%EB%8A%94_%EC%
 
 4개 조사 추가
 
+## 퍼포먼스
+
+기존에 잘 만들어 두신 조사처리 패키지 : https://github.com/myevan/pyjosa 와의 성능 테스트 결과
+
+```console
+4.704572초 걸렸습니다.  : https://github.com/kimsehwan96/pyjosa
+5.381061초 걸렸습니다.  : https://github.com/myevan/pyjosa
+```
+
+테스트 코드 : 
+
+https://github.com/kimsehwan96/pyjosa/blob/master/performance_test.py
 
 ## Contribute
 

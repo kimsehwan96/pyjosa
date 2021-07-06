@@ -1,6 +1,7 @@
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 import re
 from pyjosa.exceptions import NotHangleException, JongsungInstantiationException
+from pyjosa import START_HANGLE, J_INDEX
 
 
 class Jongsung:
@@ -8,8 +9,8 @@ class Jongsung:
     글자가 한글인지 체크 및 종성이 있는지 체크하는 클래스
     """
     # Class attribute
-    _START_HANGLE = 44032
-    _J_IDX = 28
+    _START_HANGLE = START_HANGLE # 44032
+    _J_IDX = J_INDEX # 28
 
     # we will not instantiate this class because it's not really needed.
     def __init__(self):

@@ -1,9 +1,7 @@
-import logging as __logging
-try:
-    from logging import NullHandler as __null
-except ImportError:
-    class __null(__logging.Handler):
-        def emit(self, record):
-            pass
+# -*- coding: utf-8 -*-
 
-__logging.getLogger(__name__).addHandler(__null())
+# utf-8 가 : 44032
+# 종성 인덱스 : 28
+START_HANGLE = 44032
+J_INDEX = 28
+
